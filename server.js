@@ -42,6 +42,5 @@ response.json(rappers[rapName])
 })
 
 
-app.listen(PORT, () =>{
-    console.log(`sever running on port ${PORT}`)
-})
+app.listen(process.env.PORT || PORT, () =>{
+    console.log(`sever runni 
